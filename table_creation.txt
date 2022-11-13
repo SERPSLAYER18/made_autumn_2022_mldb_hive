@@ -1,0 +1,12 @@
+CREATE TABLE  artists(
+mbid    string,
+artist_mb    string,
+artist_lastfm    string,
+country_mb    string,
+country_lastfm    string,
+tags_mb    string,
+tags_lastfm    string,
+listeners_lastfm    bigint,
+scrobbles_lastfm    bigint,
+ambiguous_artist    boolean
+);
